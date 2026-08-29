@@ -1,4 +1,4 @@
-﻿# CareerFit - Resume Analyzer & Job Matcher
+﻿# BobTheBuilder - Resume Analyzer & Job Matcher
 
 A premium resume analysis tool powered by GPT-4o-mini. Upload your resume, paste a job description, and get an instant AI-powered analysis.
 

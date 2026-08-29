@@ -1,5 +1,5 @@
 {
-  "name": "careerfit",
+  "name": "bobthebuilder",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -27,3 +27,4 @@
     "vite": "^5.2.0"
   }
 }
+

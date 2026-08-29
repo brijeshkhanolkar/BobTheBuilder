@@ -5,7 +5,7 @@ export interface SavedAnalysis {
   timestamp: string
 }
 
-const KEY = 'careerfit_analyses'
+const KEY = 'bobthebuilder_analyses'
 
 export function saveAnalysis(a: SavedAnalysis) {
   const list = loadAnalyses()

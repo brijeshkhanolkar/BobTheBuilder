@@ -1,7 +1,7 @@
 ﻿import type { VercelRequest, VercelResponse } from "@vercel/node";
 import OpenAI from "openai";
 
-const SYSTEM_PROMPT = `You are CareerFit, an expert resume analyst and career coach.
+const SYSTEM_PROMPT = `You are Bob, an expert resume analyst and career coach.
 Given a resume and job description, return ONLY valid JSON matching this exact schema:
 {
   "score": number (0-100),

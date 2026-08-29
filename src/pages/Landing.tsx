@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 export default function Landing() {
@@ -8,7 +8,7 @@ export default function Landing() {
 
       {/* Hero */}
       <div className="mb-16">
-        <p className="text-xs uppercase tracking-widest text-gray-400 mb-4">Resume Intelligence</p>
+        <p className="text-xs uppercase tracking-widest text-gray-400 mb-4">Bob — Resume Intelligence</p>
         <h1 className="text-5xl md:text-6xl font-semibold leading-tight text-[#1A1A1A] mb-6">
           Your resume isn't bad.<br />
           It's just not optimized<br />
@@ -35,8 +35,8 @@ export default function Landing() {
 
       {/* Flow strip */}
       <div className="flex items-center gap-3 text-sm text-gray-400 uppercase tracking-widest mb-16 border-y border-gray-200 py-4">
-        {['Resume', '→', 'Job', '→', 'Match', '→', 'Improve'].map((s, i) => (
-          <span key={i} className={s === '→' ? '' : 'font-medium text-[#1A1A1A]'}>{s}</span>
+        {['Resume', 'â†’', 'Job', 'â†’', 'Match', 'â†’', 'Improve'].map((s, i) => (
+          <span key={i} className={s === 'â†’' ? '' : 'font-medium text-[#1A1A1A]'}>{s}</span>
         ))}
       </div>
 
@@ -56,3 +56,4 @@ export default function Landing() {
     </div>
   )
 }
+

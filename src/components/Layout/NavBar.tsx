@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 
 export default function NavBar() {
@@ -9,7 +9,7 @@ export default function NavBar() {
         className="text-xl font-semibold tracking-tight text-[#1A1A1A] cursor-pointer"
         onClick={() => navigate('/')}
       >
-        Career<span className="text-[#E8501A]">Fit</span>
+        Bob<span className="text-[#E8501A]">TheBuilder</span>
       </span>
       <div className="flex items-center gap-6">
         <NavLink to="/" className={({ isActive }) =>
@@ -28,3 +28,4 @@ export default function NavBar() {
     </nav>
   )
 }
+

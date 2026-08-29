@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+﻿import React, { useEffect, useState } from 'react'
 
 interface Props { score: number; company: string; jobTitle: string }
 
@@ -17,14 +17,14 @@ export default function Score({ score, company, jobTitle }: Props) {
   }, [score])
 
   const label =
-    score >= 80 ? 'Strong match — a few important gaps remain.'
-    : score >= 65 ? 'Good match — consider key improvements.'
-    : 'Partial match — significant gaps to address.'
+    score >= 80 ? 'Strong match â€” a few important gaps remain.'
+    : score >= 65 ? 'Good match â€” consider key improvements.'
+    : 'Partial match â€” significant gaps to address.'
 
   return (
     <div className="border border-gray-200 bg-white p-8 rounded-sm">
-      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">{jobTitle} · {company}</p>
-      <h2 className="text-3xl font-semibold text-[#1A1A1A] mb-6">Resume Match</h2>
+      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">{jobTitle} Â· {company}</p>
+      <h2 className="text-3xl font-semibold text-[#1A1A1A] mb-6">Bob's Analysis</h2>
       <div className="flex items-end gap-2 mb-3 animate-count">
         <span className="text-8xl font-bold text-[#E8501A] tabular-nums">{display}</span>
         <span className="text-2xl text-gray-400 mb-3">/ 100</span>
@@ -33,3 +33,4 @@ export default function Score({ score, company, jobTitle }: Props) {
     </div>
   )
 }
+
